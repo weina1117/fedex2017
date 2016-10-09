@@ -108,6 +108,7 @@ def ptwodayam(wb):
             ret8[h] = [0 for _ in range(len(ret8['rate']))]
     return ret8
 
+#dsajkdjdakl
 def ptwoday(wb):
     p2 = wb.get_sheet_by_name('ExpressPackage2Day')
     weight = [p2['A'+str(x)].value for x in range(2, p2.max_row+1)]
