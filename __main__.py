@@ -371,6 +371,8 @@ rules = {
 
 def main():
     wb = openpyxl.load_workbook('/Users/weinaguo/Desktop/2017fedexrates.xlsx')
+    for rule in rules:
+        pass
     results =[ envelopeupto8oz(wb)
     , pfirstovernight(wb)
     , ppriorityovernight(wb)
